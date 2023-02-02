@@ -1,0 +1,52 @@
+body {
+  width: 60em;
+  margin: 0 auto;
+}
+
+section {
+  padding: 2em;
+  margin: 1em;
+}
+
+.second-row-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.orange-blue-blocks {
+  display: flex;
+  flex-direction: column;
+}
+
+#green {
+  background-color: #baffc9;
+}
+
+#orange {
+  background-color: #ffdfba;
+  flex: 1;
+}
+
+#yellow {
+  background-color: #ffffba;
+}
+
+#red {
+  background-color: #ffb3ba;
+}
+
+#blue {
+  background-color: #bae1ff;
+  flex: 1;
+}
+
+ul {
+  padding: 0;
+}
+
+li {
+  background-color: white;
+  padding: 1em;
+  display: block;
+  margin: 1em;
+}
